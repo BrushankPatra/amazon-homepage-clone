@@ -195,3 +195,31 @@ span {
 .box-content p {
     color: #007185;
 }
+
+.box2 .box-content .box-img {
+    background-image: url("box2_image.jpg");
+}
+
+.box3 .box-content .box-img {
+    background-image: url("box3_image.jpg");
+}
+
+.box4 .box-content .box-img {
+    background-image: url("box4_image.jpg");
+}
+
+.box5 .box-content .box-img {
+    background-image: url("box5_image.jpg");
+}
+
+.box6 .box-content .box-img {
+    background-image: url("box6_image.jpg");
+}
+
+.box7 .box-content .box-img {
+    background-image: url("box7_image.jpg");
+}
+
+.box8 .box-content .box-img {
+    background-image: url("box8_image.jpg");
+}
