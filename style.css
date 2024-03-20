@@ -275,4 +275,13 @@ footer {
     background-color: #222f3d;
     color: white;
     border-top: .5px solid rgb(113, 113, 113);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-logo {
+    height: 50px;
+    width: 113px;
 }
