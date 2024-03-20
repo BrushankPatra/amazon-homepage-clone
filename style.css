@@ -246,11 +246,17 @@ footer {
 .foot-panel-2 {
     background-color: #222f3d;
     color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .foot-panel-2 ul a {
     color: #ddd;
     text-decoration: none;
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 10px;
 }
 
 .foot-panel-2 ul a:hover {
@@ -259,4 +265,8 @@ footer {
 
 .foot-panel-2 p {
     font-weight: 700;
+}
+
+.foot-panel-2 ul {
+    margin-top: 40px;
 }
