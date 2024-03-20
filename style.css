@@ -4,6 +4,11 @@
     border: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .navbar {
     height: 60px;
     background-color: #0f1111;
@@ -284,4 +289,30 @@ footer {
 .foot-logo {
     height: 50px;
     width: 113px;
+}
+
+.foot-panel-4 {
+    background-color: #0f1111;
+    color: white;
+    font-size: 0.75rem;
+    height: 76px;
+    padding: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.pages a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    padding: 10px;
 }
