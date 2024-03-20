@@ -99,4 +99,7 @@ span {
     font-weight: 700;
 }
 
-/**box 5 of navbar**/
+/**box 6 of navbar**/
+.nav-cart i {
+    font-size: 30px;
+}
