@@ -242,3 +242,21 @@ footer {
     justify-content: center;
     font-size: 0.75rem;
 }
+
+.foot-panel-2 {
+    background-color: #222f3d;
+    color: white;
+}
+
+.foot-panel-2 ul a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.foot-panel-2 ul a:hover {
+    text-decoration: underline;
+}
+
+.foot-panel-2 p {
+    font-weight: 700;
+}
