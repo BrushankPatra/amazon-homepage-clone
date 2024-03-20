@@ -158,3 +158,18 @@ span {
     color: rgb(170, 27, 27);
     text-decoration: underline;
 }
+
+/**shop section**/
+
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    border: 2px solid grey;
+    height: 400px;
+    width: 23.5%;
+    background-color: white;
+}
