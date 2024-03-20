@@ -187,15 +187,6 @@ span {
     background-image: url("box1_image.jpg");
 }
 
-.box-content {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-}
-
-.box-content p {
-    color: #007185;
-}
-
 .box2 .box-content .box-img {
     background-image: url("box2_image.jpg");
 }
@@ -222,4 +213,13 @@ span {
 
 .box8 .box-content .box-img {
     background-image: url("box8_image.jpg");
+}
+
+.box-content {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.box-content p {
+    color: #007185;
 }
