@@ -8,6 +8,8 @@
     height: 60px;
     background-color: #0f1111;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 .nav-logo {
@@ -29,4 +31,21 @@
 
 .border:hover {
     border: 1px solid white;
+}
+
+/**box 2 of navbar**/
+#location-first {
+    color: #ccc;
+    font-size: 0.8rem;
+    margin-left: 17px;
+}
+
+#location-second {
+    font-size: 1rem;
+    margin-left: 5px;
+    align-self: flex-end;
+}
+
+.location-icon {
+    display: flex;
 }
