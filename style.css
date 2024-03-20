@@ -103,3 +103,26 @@ span {
 .nav-cart i {
     font-size: 30px;
 }
+
+/**panel below navbar**/
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops {
+    width: 70%;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-deals {
+    font-weight: 700;
+}
