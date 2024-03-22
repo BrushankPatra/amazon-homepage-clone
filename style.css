@@ -108,6 +108,11 @@ a {
     color: #0f1111;
 }
 
+.search-icon:hover {
+    background-color: #e09a3f;
+    cursor: pointer;
+}
+
 /**box 4 of navbar**/
 .nav-signin {
     width: 131.52px;
