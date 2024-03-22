@@ -57,6 +57,15 @@ a {
     align-items: last baseline;
 }
 
+.nav-location {
+    width: 88.63px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 /**box 3 of navbar**/
 .nav-search {
     display: flex;
