@@ -37,6 +37,7 @@ a {
 
 .border:hover {
     border: 1px solid white;
+    cursor: pointer;
 }
 
 /**box 2 of navbar**/
@@ -103,9 +104,17 @@ a {
 }
 
 /**box 4 of navbar**/
+.nav-signin {
+    width: 131.52px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 span {
     font-size: 0.75rem;
-
 }
 
 .nav-second {
@@ -113,7 +122,26 @@ span {
     font-weight: 700;
 }
 
+/* box 5 of navbar */
+.nav-orders {
+    width: 76.95px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 /**box 6 of navbar**/
+.nav-cart {
+    width: 84px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .nav-cart i {
     font-size: 30px;
 }
