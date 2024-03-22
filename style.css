@@ -142,6 +142,10 @@ span {
     align-items: flex-end;
 }
 
+.hero-section:hover {
+    cursor: pointer;
+}
+
 .hero-message {
     background-color: white;
     color: black;
@@ -154,9 +158,21 @@ span {
     margin-bottom: 25px;
 }
 
+.hero-message:hover {
+    cursor: default;
+}
+
+.hero-message p:hover {
+    cursor: text;
+}
+
 .hero-message a {
     color: #007185;
     text-decoration: none;
+}
+
+.hero-message a:hover {
+    cursor: pointer;
 }
 
 .hero-message a:hover {
@@ -315,4 +331,14 @@ footer {
 
 .copyright {
     padding: 10px;
+}
+
+.box-content p:hover {
+    text-decoration: underline;
+    color: rgb(170, 27, 27);
+    cursor: pointer;
+}
+
+.box-img:hover {
+    cursor: pointer;
 }
