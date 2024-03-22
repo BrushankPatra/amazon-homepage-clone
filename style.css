@@ -157,6 +157,9 @@ span {
 }
 
 .panel-ops {
+    display: flex;
+    justify-content: left;
+    align-items: center;
     width: 70%;
 }
 
@@ -167,6 +170,47 @@ span {
 
 .panel-deals {
     font-weight: 700;
+}
+
+.panel-all span {
+    margin-left: 5px;
+    font-size: 1rem;
+}
+
+.panel-all:hover {
+    text-decoration: underline;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.deals:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.service:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.registry:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cards:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sell:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.panel-deals:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /**hero section**/
